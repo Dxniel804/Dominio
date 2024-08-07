@@ -1,96 +1,58 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Para Bianca</title>
-    <link rel="stylesheet" href="styles.css">
+    <meta name="description" content="Ao escrever uma meta tag, use entre 140 e 160 caracteres para que o Google possa exibir toda a sua mensagem. Não se esqueça de incluir sua palavra-chave!">
+    <meta name="keyboards" content="HTML, CSS JAVASCRIPT">
+    <meta name="author" content="Daniel">
+    <link rel="styles" href="styles/styles.css">
+    <title>MEU SITE</title>
+    <style>
+        ol {
+            padding-left: 20px;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ffffff;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+        h1 {
+            font-size: 30pt;
+            color: rgb(8, 0, 160);
+        }   
+        p {
+            font-size: 20pt;
+            color: rgb(255, 0, 0);
+            text-align: center;
+            max-width: 600px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            margin-top: 20px;
+        }
+    </style>
 </head>
 <body>
-    body {
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-    font-family: Arial, sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-}
+    <section> 
+    <h1 id="meuid">Welcome to my Website</h1>
+    <p id="meuid2">Este é um exemplo de um site simples com uma imagem e uma breve apresentação ao usuário.</p>
+    </section>
+    <img src="IMG/1223835-nascer-da-lua-no-fundo-de-uma-arvore-solitaria-gratis-foto.jpg" alt="Texto alternativo">
+     <a href="https://www.sp.senai.br/unidade/jundiai" target="_blank">Acesse o site SENAI-SP</a>
+     <br>
+     </a href="sobre.html">Sobre</a>
+     <br>
+     </a href="contato.html">Contato (11 98103-9921)</a>
+     <a href="https://www.google.com.br" target="_blank">Acesse o Google</a>
 
-.container {
-    text-align: center;
-    background: #fff;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.heart {
-    position: relative;
-    display: inline-block;
-    margin-bottom: 20px;
-}
-
-.heart-shape {
-    position: absolute;
-    top: 0;
-    width: 100px;
-    height: 100px;
-    background: red;
-    border-radius: 50%;
-    transform: rotate(-45deg);
-}
-
-.heart-shape:before,
-.heart-shape:after {
-    content: "";
-    position: absolute;
-    width: 100px;
-    height: 100px;
-    background: red;
-    border-radius: 50%;
-}
-
-.heart-shape:before {
-    top: -50px;
-    left: 0;
-}
-
-.heart-shape:after {
-    left: 50px;
-    top: 0;
-}
-
-.heart-text {
-    position: absolute;
-    top: 20px;
-    left: 50%;
-    transform: translateX(-50%);
-    color: white;
-    font-size: 24px;
-    font-weight: bold;
-}
-
-h1 {
-    color: #333;
-    font-size: 24px;
-}
-
-.message {
-    color: #666;
-    font-size: 18px;
-}
-
-    <div class="container">
-        <div class="heart">
-            <span class="heart-shape"></span>
-            <span class="heart-shape"></span>
-            <div class="heart-text">EU TE AMO</div>
-        </div>
-        <h1>Para a minha amada Bianca</h1>
-        <p class="message">Você é a luz da minha vida, o sorriso que ilumina meus dias e o amor que aquece meu coração. Te amo mais do que palavras podem expressar!</p>
-    </div>
-    <script src="script.js"></script>
 </body>
 </html>
